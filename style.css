@@ -1,0 +1,84 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizzing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.logo{
+    height: 100%;
+    width: 10%;
+}
+
+.logo img{
+    height: 40px;
+    width: 95px;
+    background-position: center;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.badabox{
+    height: 100%;
+    width: 22%;
+    display: flex;
+
+}
+
+.chotubox{
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+}
+
+.something{
+    height: 3%;
+    width: 100%;
+}
+
+#page2{
+    height: 77%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images1{
+    height: 90%;
+    width: 22%;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+
+.x1{
+    color: black;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
