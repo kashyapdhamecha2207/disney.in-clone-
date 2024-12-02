@@ -77,6 +77,7 @@ html,body{
     height: 12%;
     width: 100%;
     color: black;
+    background-color: white;
     font-size: 20px;
     padding-top: 28px;
     padding-left: 80px;
@@ -93,19 +94,39 @@ html,body{
 .boxx1{
     height: 100%;
     width: 50%;
-    background-color: lightblue;
+    background-color: white;
     padding-top: 20px;
     padding-left: 80px;
-    font-size: 22px;
+
 }
 
 .boxx2{
     height: 100%;
     width: 50%;
-    background-color: rgb(0, 108, 145);
+    padding-top: 20px;
+    padding-left: 2px;
+    background-color: white;
 }
 
 .boxx1 p{
     padding-top: 19px;
     padding-left: 32px;
+    font-size: 22px;
+}
+
+.boxx2 p{
+    padding-top: 19px;
+    padding-left: 32px;
+    font-size: 22px;
+}
+
+.boxx2.p2{
+    color: blue;
+    font-size: 5px;
+}
+
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
 }
