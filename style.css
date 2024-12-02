@@ -1,132 +1,220 @@
 *{
-   margin:0%;
-   padding:0%;
-   box-sizzing: border-box;
-}
-
-html,body{
-   height: 100%;
-   width: 100%
-}
-
-#header{
+    margin:0%;
+    padding:0%;
+    box-sizzing: border-box;
+ }
+ 
+ html,body{
+    height: 100%;
+    width: 100%
+ }
+ 
+ #header{
+     height: 10%;
+     width: 100%;
+     background-color: white;
+     display: flex;
+ }
+ 
+ .logo{
+     height: 100%;
+     width: 10%;
+ }
+ 
+ .logo img{
+     height: 40px;
+     width: 95px;
+     background-position: center;
+     margin-left: 16px;
+     margin-top: 12px;
+ }
+ 
+ .badabox{
+     height: 100%;
+     width: 22%;
+     display: flex;
+ 
+ }
+ 
+ .chotubox{
+     background-color: white;
+     padding-top: 25px;
+     padding-left: 20px;
+     height: 100%;
+     width: 100%;
+     font-size: 12px;
+ }
+ 
+ #page1{
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .something{
+     height: 3%;
+     width: 100%;
+ }
+ 
+ #page2{
+     height: 77%;
+     width: 100%;
+     display: flex;
+     background-color: white;
+     justify-content: space-between;
+ }
+ 
+ .images1{
+     height: 90%;
+     width: 22%;
+ }
+ 
+ #page3{
+     height: 100%;
+     width: 100%;
+     background-color: grey;
+ }
+ 
+ .x1 p{
+     height: 12%;
+     width: 100%;
+     color: black;
+     background-color: rgb(238,238,238);
+     padding-top: 28px;
+     padding-left: 80px;
+     font-size: 36px;
+ }
+ 
+ .page3lite{
+     height: 88%;
+     width: 100%;
+     background-color: rgb(238,238,238);
+     display: flex;
+ }
+ 
+ .boxx1{
+     height: 100%;
+     width: 50%;
+     background-color: rgb(238,238,238);
+     padding-top: 20px;
+     padding-left: 80px;
+ 
+ }
+ 
+ .boxx2{
+     height: 100%;
+     width: 50%;
+     padding-top: 20px;
+     padding-left: 2px;
+     background-color: rgb(238,238,238);
+ }
+ 
+ .boxx1 p{
+     padding-top: 19px;
+     padding-left: 32px;
+     font-size: 20px;
+ }
+ 
+ .boxx2 p{
+     padding-top: 19px;
+     padding-left: 32px;
+     font-size: 20px;
+ }
+ 
+ 
+ #page4{
+     height: 100%;
+     width: 100%;
+     background-color: rgb(238,238,238);
+ }
+ 
+ .x2 p{
     height: 10%;
     width: 100%;
-    background-color: white;
-    display: flex;
-}
-
-.logo{
-    height: 100%;
-    width: 10%;
-}
-
-.logo img{
-    height: 40px;
-    width: 95px;
-    background-position: center;
-    margin-left: 16px;
-    margin-top: 12px;
-}
-
-.badabox{
-    height: 100%;
-    width: 22%;
-    display: flex;
-
-}
-
-.chotubox{
-    background-color: white;
-    padding-top: 25px;
-    padding-left: 20px;
-    height: 100%;
-    width: 100%;
-    font-size: 12px;
-}
-
-#page1{
-    height: 100%;
-    width: 100%;
-}
-
-.something{
-    height: 3%;
-    width: 100%;
-}
-
-#page2{
-    height: 77%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.images1{
-    height: 90%;
-    width: 22%;
-}
-
-#page3{
-    height: 100%;
-    width: 100%;
-    background-color: grey;
-}
-
-.x1 p{
-    height: 12%;
-    width: 100%;
     color: black;
-    background-color: white;
-    font-size: 20px;
     padding-top: 28px;
     padding-left: 80px;
     font-size: 36px;
 }
 
-.page3lite{
-    height: 88%;
+.image2 p{
+    color: black;
+    font-size: 20px;
+}
+
+.boxx3{
+    height: 90%;
     width: 100%;
-    background-color: pink;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.image3{
+    height: 100%;
+    width: 33%;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.image3 p{
+    color: black;
+    font-size: 20px;
+}
+
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238,238,238);
+}
+
+.x3{
+    height: 10%;
+    width: 100%;
+}
+
+.x3 p{
+    color: black;
+    background-color: rgb(238,238,238);
+    padding-top: 28px;
+    padding-left: 80px;
+    font-size: 36px;
+}
+
+.page5box{
+    height: 90%;
+    width: 100%;
     display: flex;
 }
 
-.boxx1{
+.boxx4{
     height: 100%;
     width: 50%;
-    background-color: white;
     padding-top: 20px;
     padding-left: 80px;
-
 }
 
-.boxx2{
+.boxx5{
     height: 100%;
     width: 50%;
     padding-top: 20px;
-    padding-left: 2px;
-    background-color: white;
+    margin-right: 30px;
 }
 
-.boxx1 p{
+.boxx4 p{
+    padding-top: 19px;
+    padding-left: 32px;
+    font-size: 20px;
+}
+
+.boxx5 p{
     padding-top: 19px;
     padding-left: 32px;
     font-size: 22px;
 }
 
-.boxx2 p{
-    padding-top: 19px;
-    padding-left: 32px;
-    font-size: 22px;
-}
 
-.boxx2.p2{
-    color: blue;
-    font-size: 5px;
-}
 
-#page4{
-    height: 100%;
+#page6{
+    height: 50%;
     width: 100%;
-    background-color: grey;
+    background-color: white;
 }
