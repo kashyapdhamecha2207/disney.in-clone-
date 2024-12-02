@@ -211,10 +211,58 @@
     font-size: 22px;
 }
 
-
-
 #page6{
     height: 50%;
     width: 100%;
     background-color: white;
+}
+
+.page6box{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.footer1{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+}
+
+.footer2{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+}
+
+.footer1 img{
+    height: 70px;
+    width: 160px;
+    background-position: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.footer1 a{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.footer2 img{
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.page6box2{
+    height: 60%;
+    width: 100%;
 }
